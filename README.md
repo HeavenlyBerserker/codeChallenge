@@ -35,9 +35,9 @@ The code is in "bonusTask1/main.py". Can pass an argument file name where input 
 I implemented the algorithm to repeat the following procedure:
 
 * while (still unsafisfied dependencies)
-** for dependency d
-*** if(d is not satisfied) swap the elements
-** if(no changes have been made) exit, no solution
+	* for dependency d
+		* if(d is not satisfied) swap the elements
+	* if(no changes have been made) exit, no solution
 
 ## Sources:
 [https://stackoverflow.com]
