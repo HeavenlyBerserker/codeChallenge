@@ -28,8 +28,20 @@ I have implemented a python script that opens the images with opencv, first calc
 
 The results for the SIFT were better than for the SURF descriptor matching. However, the marching was still relatively poor due to very similar repeating features appearing in the image.
 
+## Bonus Task 1
+
+The code is in "bonusTask1/main.py". Can pass an argument file name where input is stored. First line input contains projects, second line dependencies. "bonusTask1/run.sh" runs both default inputs in the directory.
+
+I implemented the algorithm to repeat the following procedure:
+
+* while (still unsafisfied dependencies)
+** for dependency d
+*** if(d is not satisfied) swap the elements
+** if(no changes have been made) exit, no solution
+
 ## Sources:
-stackoverflow
+[https://stackoverflow.com]
+[https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr]
 [https"//www.pyimagesearch.com/2015/07/16/where-did-sift-and-surf-go-in-opencv-3/]
 [https://docs.opencv.org/3.1.0/da/df5/tutorial_py_sift_intro.html]
 [https://docs.opencv.org/3.4/dc/dc3/tutorial_py_matcher.html]
