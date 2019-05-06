@@ -55,10 +55,10 @@ The output image is in the output folder.
 The link to the linux Qt 4.8 source was broken. Was able to find it at [https://download.qt.io/archive/qt/4.8/4.8.7/]. Was able to build SCIRun, but added it to .gitignore because it was too heavy. Was not able to use the shell script to build, but was able to use the "cd bin" and "cmake ../Superbuild" commands.
 
 ## Sources:
-[https://stackoverflow.com]
-[https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr]
-[https"//www.pyimagesearch.com/2015/07/16/where-did-sift-and-surf-go-in-opencv-3/]
-[https://docs.opencv.org/3.1.0/da/df5/tutorial_py_sift_intro.html]
-[https://docs.opencv.org/3.4/dc/dc3/tutorial_py_matcher.html]
+* [https://stackoverflow.com]
+* [https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr]
+* [https"//www.pyimagesearch.com/2015/07/16/where-did-sift-and-surf-go-in-opencv-3/]
+* [https://docs.opencv.org/3.1.0/da/df5/tutorial_py_sift_intro.html]
+* [https://docs.opencv.org/3.4/dc/dc3/tutorial_py_matcher.html]
 
 
