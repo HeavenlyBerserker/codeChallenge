@@ -52,7 +52,7 @@ The output image is in the output folder.
 
 ## Bonus Task 3
 
-I was unsure what to do on this one. The link to the linux Qt 4.8 source was broken. I tried looking for it [https://download.qt.io/archive/qt/4.8/4.8.7/] in the website, but downloads were failing for some reason. Does it run on other versions of Qt? I was wondering why the version requirement was so specific. 
+The link to the linux Qt 4.8 source was broken. Was able to find it at [https://download.qt.io/archive/qt/4.8/4.8.7/]. Was able to build SCIRun, but added it to .gitignore because it was too heavy. Was not able to use the shell script to build, but was able to use the "cd bin" and "cmake ../Superbuild" commands.
 
 ## Sources:
 [https://stackoverflow.com]
