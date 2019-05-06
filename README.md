@@ -22,7 +22,9 @@ I have decided to create a double linked list, a data structure that can be rota
 
 ## Required Task 3
 
-Using python 3.6.7. install.sh installs the necessary libraries. Make sure you have pip3 available. Installs numpy, opencv-python, opencv-contrib-python, and scipy. Specific versions of opencv and opencv-contrib were used to run this due to them having SIFT and SURF descriptor support, which has been removed for more recent versions.
+Note: I thought we had to find the differences between the 2D_registration images, so in addition to doing differences, I tried to do SIFT and SURF descriptor matching. I included the results to both pairs of images. See outputs "task3/outputs" directory to see what I mean. Run "task3/task3-simple.py" to do the basics. If you want to see the SIFT and SURF matching tasks, run "task3/task3.py".
+
+Using python 3.6.7. install.sh installs the necessary libraries. Make sure you have pip3 available. Installs numpy, opencv-python, and opencv-contrib-python. Specific versions of opencv and opencv-contrib were used to run this due to them having SIFT and SURF descriptor support, which has been removed for more recent versions.
 
 I have implemented a python script that opens the images with opencv, first calculates the RGB pixel diferences and writes the difference image to "task2/outputs/diff.png". Then, the script detects the SIFT descriptors using opencv libraries, finds a matching of the descriptors and prints the image matching to "task2/outputs/matchedImSIFT.png". Lastly, the script detects the SURF descriptors using opencv libraries, finds a matching of the descriptors and prints the image matching to "task2/outputs/matchedImSIFT.png". The matching was done using opencv's implementation of 2 nearest neighbors.
 
@@ -38,6 +40,19 @@ I implemented the algorithm to repeat the following procedure:
 	* for dependency d
 		* if(d is not satisfied) swap the elements
 	* if(no changes have been made) exit, no solution
+* return solution
+
+## Bonus Task 2
+
+Make sure opencv is installed. python3 main.py to run the program.
+
+The program computes the translation matrix for a bunch of 2D and 3D coordinates. I had some trouble warping images without them going out of bounds. I am certain that my 2D and 3D work perfectly, however, due to my moving the images to avoid warping images out of bounds, I lost a bit of precision since I solved after translation. I assumed we were not allowed to use the built in opencv translation matrix solver, so I wrote the code, but I used the numpy linear system of equation solver. The original and transformed values are not perfect, but are very close. The 2D values suffered a lot due to pre-translation, but if you are happy with an incomplete image, it still stitches perfectly.
+
+The output image is in the output folder. 
+
+## Bonus Task 3
+
+I was unsure what to do on this one. The link to the linux Qt 4.8 source was broken. I tried looking for it [https://download.qt.io/archive/qt/4.8/4.8.7/] in the website, but downloads were failing for some reason. Does it run on other versions of Qt? I was wondering why the version requirement was so specific. 
 
 ## Sources:
 [https://stackoverflow.com]
