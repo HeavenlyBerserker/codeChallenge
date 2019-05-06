@@ -57,7 +57,7 @@ The link to the linux Qt 4.8 source was broken. Was able to find it at [https://
 ## Sources:
 * [https://stackoverflow.com]
 * [https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr]
-* [https"//www.pyimagesearch.com/2015/07/16/where-did-sift-and-surf-go-in-opencv-3/]
+* [https://www.pyimagesearch.com/2015/07/16/where-did-sift-and-surf-go-in-opencv-3/]
 * [https://docs.opencv.org/3.1.0/da/df5/tutorial_py_sift_intro.html]
 * [https://docs.opencv.org/3.4/dc/dc3/tutorial_py_matcher.html]
 
